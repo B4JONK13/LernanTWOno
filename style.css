@@ -19,7 +19,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--primary);
     background-color: var(--light);
-    line-height: 1.5;
 }
 
 .flex {
@@ -77,4 +76,27 @@ body {
     background-color: var(--secondary);
     padding: 5px;
     font-size: 37px;
+}
+
+.section-format {
+    padding: 0px 80px 0px 100px;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.section-format h2 {
+    font-size: 77px;
+    color: var(--primary);
+    border-right: 4px solid var(--primary);
+    text-align: right;
+    padding-right: 15px;
+    flex: 0 0 20%;
+}
+
+.section-format div {
+    padding: 20px;
+}
+
+.section-format div p {
+    line-height: 2;
 }
